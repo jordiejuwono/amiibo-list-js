@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif, serif;
+}
+
+body {
+    background-color: #ADD8E6;
+    padding: 24px;
+}
+
+.search-container {
+    background-color: #FFFFFF;
+    padding: 16px;
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 0.8em;
+}
+
+.search-contents {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1em;
+}
+
+.search-contents input {
+    padding: 8px;
+}
+
+.search-contents button {
+    border-radius: 8px;
+    border: none;
+    background-color: #77C3EC;
+    color: white;
+}
+
+#amiibo-results {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.amiibo-image {
+    max-width: 15%;
+    padding: 8px;
+}
