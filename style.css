@@ -34,6 +34,7 @@ body {
     border: none;
     background-color: #77C3EC;
     color: white;
+    cursor: pointer;
 }
 
 #amiibo-results {
@@ -46,4 +47,16 @@ body {
 .amiibo-image {
     max-width: 15%;
     padding: 8px;
+}
+
+.error-text {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 30vh;
+}
+
+.loading-text {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 30vh;
 }
